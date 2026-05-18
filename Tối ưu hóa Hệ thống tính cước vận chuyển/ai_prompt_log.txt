@@ -1,0 +1,14 @@
+prompt 1:
+Giải thích sự khác biệt về cơ chế hoạt động, tốc độ thực thi giữa switch-case và if-else
+
+prompt 2:
+Khi nào bắt buộc dùng if-else và khi nào nên ưu tiên dùng switch-case? Cho ví dụ ngắn
+
+prompt 3:
+Các lỗi cú pháp và lỗi logic thường gặp nhất khi viết câu lệnh switch-case là gì?
+
+prompt 4:
+"Làm sao để chuyển một điều kiện so sánh khoảng (ví dụ: điểm số 8-10) sang switch-case nếu có thể?
+
+prompt 5:
+Giải thích luồng chạy của đoạn code switch-case này khi thiếu từ khóa break ở các nhánh
