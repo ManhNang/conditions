@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    background-color: #e9eff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Khung chứa trung tâm */
+.toggle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: transparent;
+    padding: 20px;
+}
+
+/* Từng hàng công tắc */
+.toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Ẩn checkbox mặc định của trình duyệt */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Thiết kế lớp bọc ngoài của công tắc (Thanh trượt) */
+.toggle-label {
+    position: relative;
+    width: 90px;
+    height: 45px;
+    background-color: #929292; /* Màu xám khi tắt giống ảnh mẫu */
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Thiết kế nút tròn di chuyển bên trong */
+.toggle-label::after {
+    content: '';
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #d1d1d1; /* Nút tròn màu xám sáng */
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* HIỆU ỨNG KHI BẬT (CHECKED) */
+/* 1. Đổi thanh trượt sang màu xanh lá cây */
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #4CAF50; 
+}
+
+/* 2. Đẩy nút tròn sang bên phải và đổi màu nút */
+.toggle-checkbox:checked + .toggle-label::after {
+    transform: translateX(45px);
+    background-color: #ffffff;
+}
+
+/* Định dạng chữ hiển thị bên cạnh */
+.toggle-text {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 1px;
+    user-select: none;
+}
