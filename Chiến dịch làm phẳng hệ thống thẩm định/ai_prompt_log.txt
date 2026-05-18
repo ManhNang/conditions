@@ -1,0 +1,14 @@
+prompt 1:
+Arrow Anti-pattern trong lập trình là gì? Nó gây ra những hệ lụy gì cho hiệu năng và bảo trì mã nguồn?
+
+prompt 2:
+Cơ chế hoạt động của kỹ thuật Guard Clauses là gì? Cho ví dụ minh họa lý thuyết về cách triển khai nó
+
+prompt 3:
+Cấu trúc 4 tầng if-else lồng nhau sâu ảnh hưởng thế nào đến chỉ số độ phức tạp Cyclomatic Complexity?
+
+prompt 4:
+Làm sao để áp dụng nguyên lý đảo ngược điều kiện khi chuyển từ if-else lồng nhau sang Early Return?
+
+prompt 5:
+Sau khi làm phẳng code bằng Guard Clauses, chỉ số Cyclomatic Complexity thay đổi ra sao so với cấu trúc lồng nhau?
