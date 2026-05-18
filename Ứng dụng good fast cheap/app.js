@@ -6,11 +6,10 @@ function handleToggle(clickedNode) {
     if (good.checked && cheap.checked && fast.checked) {
         if (clickedNode === good) {
             fast.checked = false;
-        }
-        if (clickedNode === cheap) {
+        } else if (clickedNode === cheap) {
             good.checked = false;
         }
-        if (clickedNode === fast) {
+        else {
             cheap.checked = false;
         }
     }
