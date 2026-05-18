@@ -1,0 +1,14 @@
+prompt 1:
+Phân vùng tương đương và phân tích giá trị biên là gì? Cho ví dụ áp dụng vào logic điều kiện rẽ nhánh
+
+prompt 2:
+Hàm tính thuế có quy định: dưới 10 triệu 0%, từ 10-15 triệu 5%. Gợi ý các kịch bản kiểm thử bao phủ rẽ nhánh
+
+prompt 3:
+Với logic if (age >= 18), những giá trị biên nào dễ gây lỗi và cần đưa vào Test Case?
+
+prompt 4:
+Viết mã giả sử dụng các hàm Assert cơ bản để tự động hóa việc kiểm tra kết quả đúng/sai của Test Case
+
+prompt 5:
+Khi Test Case phát hiện lỗi biên ở code cũ, tôi nên viết Unit Test chứng minh lỗi đó thế nào trước khi sửa?
