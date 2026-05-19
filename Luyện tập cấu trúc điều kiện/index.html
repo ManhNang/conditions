@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học viên: Tổng hợp 12 Bài tập Logic</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <div id="mainMenu">
+            <h1>Tổng Hợp 12 Bài Tập Logic</h1>
+            <p style="text-align: center; color: #666;">Chọn một bài tập dưới đây để thực hiện điều hướng</p>
+            <div class="menu-grid">
+                <button class="menu-btn" onclick="openExercise(1)">Bài 1: Đổi độ C sang độ F</button>
+                <button class="menu-btn" onclick="openExercise(2)">Bài 2: Đổi Mét sang Feet</button>
+                <button class="menu-btn" onclick="openExercise(3)">Bài 3: Diện tích hình vuông</button>
+                <button class="menu-btn" onclick="openExercise(4)">Bài 4: Diện tích chữ nhật</button>
+                <button class="menu-btn" onclick="openExercise(5)">Bài 5: Diện tích tam giác vuông</button>
+                <button class="menu-btn" onclick="openExercise(6)">Bài 6: Giải phương trình bậc 1</button>
+                <button class="menu-btn" onclick="openExercise(7)">Bài 7: Giải phương trình bậc 2</button>
+                <button class="menu-btn" onclick="openExercise(8)">Bài 8: Kiểm tra tuổi hợp lệ</button>
+                <button class="menu-btn" onclick="openExercise(9)">Bài 9: Kiểm tra 3 cạnh tam giác</button>
+                <button class="menu-btn" onclick="openExercise(10)">Bài 10: Tính giá điện sinh hoạt</button>
+                <button class="menu-btn" onclick="openExercise(11)">Bài 11: Tính thuế TNCN</button>
+                <button class="menu-btn" onclick="openExercise(12)">Bài 12: Tính lãi kép ngân hàng</button>
+            </div>
+        </div>
+
+        <div id="exerciseWorkspace" class="hidden">
+            <button class="back-btn" onclick="goBack()">&larr; Quay lại Menu chính</button>
+            <h2 id="exerciseTitle">Tên bài tập</h2>
+            <hr style="border: 0; height: 1px; background: #eee; margin-bottom: 25px;">
+            
+            <div id="dynamicInputs"></div>
+            <button class="action-btn" onclick="executeCalculate()">Tính toán kết quả</button>
+            <div id="outputResult" class="result-box hidden"></div>
+        </div>
+    </div>
+</body>
+</html>
